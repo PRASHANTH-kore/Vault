@@ -1,0 +1,229 @@
+/* App.css */
+.bg-container{
+  background-color: #ffffff;
+  width: 75vw;
+  height: 85vh;
+  /* width: 75%;
+  padding: 40px; */
+  background-color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+.custom-scrollbar{
+
+  scrollbar-width: 8px; 
+}
+  &::-webkit-scrollbar {
+     height: 8px;
+     width: 8px;
+  
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    
+     -webkit-border-radius: 4px;
+     
+  }
+  
+  &::-webkit-scrollbar-corner {
+     background: #000;
+  }
+  
+  
+  
+  
+
+.content-area {
+  width: 75%;
+  padding: 20px;
+  background-color:#ece3fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ... (rest of your CSS) */
+/* App.css */
+
+/* Dropdown styling in FileSection */
+/* .file-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #5b5b5b;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+} */
+
+.file-section-title:hover {
+  color: #4a148c;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* .dropdown-icon.open {
+  transform: rotate(0deg);
+} */
+
+.file-items {
+  padding-left: 20px;
+}
+
+/* Rest of your styles... */
+/* App.css */
+
+/* Adding line separation between each file item */
+/* .file-items {
+  padding-left: 20px;
+}
+
+.file-item {
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #5b5b5b;
+}
+
+.file-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.file-item:hover {
+  color: #333;
+  background-color: #f2f2f2;
+} */
+
+/* Rest of your styles... */
+
+/* App.css */
+
+/* Sidebar section with line separation */
+.file-section {
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+/* .file-section:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+} */
+
+.file-section-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #5b5b5b;
+  padding: 10px;
+  /* border-radius: 5px; */
+  /* background-color: #f2f2f2; */
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+/* .file-section-title:hover {
+  background-color: #e6e6e6;
+} */
+
+.dropdown-icon {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-icon.open {
+  transform: rotate(90deg);
+}
+
+.file-items {
+  padding-left: 20px;
+}
+
+/* Rest of your styles... */
+
+/* FileItem.css */
+
+.file-item {
+  display: flex;
+  align-items: center;
+  background-color: #EBE0F9; /* Slightly light purple background */
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Space between items */
+}
+
+.file-item:hover {
+  background-color: #ece9ff; /* Hover background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hover shadow effect */
+}
+
+.file-item-radio {
+  margin-right: 12px;
+  accent-color: #7a4ce0; /* Purple color for radio button */
+}
+
+.file-item-icon {
+  background-color: #eae2fd; /* Light purple background for icon */
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.file-item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-item-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #2b2b2b; /* Darker text color */
+}
+
+.file-item-pages {
+  font-size: 14px;
+  color: #7a7a7a; /* Lighter text color */
+}
+.file-item-icon{
+  color: blueviolet;
+}
